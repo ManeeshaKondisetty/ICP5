@@ -16,7 +16,6 @@ export class AppComponent {
   ticking = () => {
     let subtractDates = Date.parse(this.selecteddate) - Date.now();
     if (subtractDates < 0) {
-      clearInterval(this.timer);
       this.remainingTime = 'Past Date, please select future dates for the event.';
       return;
     }
