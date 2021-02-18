@@ -1,0 +1,25 @@
+header {
+  font-size: 100px;
+  padding: 100px;
+  color: darkmagenta;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+input {
+  width: 550px;
+  background: yellow;
+  text-align: center;
+  font-size: 60px;
+  align-content: center;
+}
+
+.ticking {
+  font-size: 60px;
+  color: black;
+}
+

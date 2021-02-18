@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<div>
+  <header>
+    Event Countdown Timer
+  </header>
+</div>
+<div>
+  <input type="text" placeholder="Enter event name" style="margin-bottom: 50px">
+</div>
+<div class="container">
+  <input [(ngModel)]="selecteddate" type="date" (click)="showTimer()"/>
+</div>
+
+<div id="timerSec" class="ticking" style="margin-top: 50px;visibility: hidden" >
+  {{remainingTime}}
+</div>
+
+</body>
+</html>
